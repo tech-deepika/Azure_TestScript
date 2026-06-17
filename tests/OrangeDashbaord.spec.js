@@ -26,7 +26,7 @@ test.describe('Orange HRM Dashboard Tests', () => {
         const text = await dashboardPage.clickApplyLeave();
 
         console.log(
-            'Message Displayed on apply screen:',
+            'Apply leave Screen Message:',
             text
         );
 
