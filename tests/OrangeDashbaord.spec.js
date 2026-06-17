@@ -22,7 +22,7 @@ test.describe('Orange HRM Dashboard Tests', () => {
     });
 
 test.afterAll(async () => {
-     console.log("New Code from main");
+     console.log("New Code from orange-dashborad-changes-branch");
 });
 
     test('Orange HRM Apply Leave Message', async () => {
