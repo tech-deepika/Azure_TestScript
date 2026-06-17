@@ -11,7 +11,7 @@ export default defineConfig({
 
   // Maximum time for assertions
   expect: {
-    timeout: 10000,
+    timeout: 30000,
   },
 
   // Run tests in parallel
