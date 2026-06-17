@@ -21,10 +21,6 @@ test.describe('Orange HRM Dashboard Tests', () => {
         await dashboardPage.checkDashboard();
     });
 
-test.afterAll(async () => {
-     console.log("Code Chnages from orange-dashborad-changes-branch");
-});
-
     test('Orange HRM Apply Leave Message', async () => {
 
         const text = await dashboardPage.clickApplyLeave();
