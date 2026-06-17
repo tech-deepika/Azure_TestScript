@@ -21,6 +21,10 @@ test.describe('Orange HRM Dashboard Tests', () => {
         await dashboardPage.checkDashboard();
     });
 
+test.afterAll(async () => {
+     console.log("Test Completed");
+});
+
     test('Orange HRM Apply Leave Message', async () => {
 
         const text = await dashboardPage.clickApplyLeave();
