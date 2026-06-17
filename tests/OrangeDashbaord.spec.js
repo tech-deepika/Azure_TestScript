@@ -26,7 +26,7 @@ test.describe('Orange HRM Dashboard Tests', () => {
         const text = await dashboardPage.clickApplyLeave();
 
         console.log(
-            'Apply leave Screen Message:',
+            'Apply leave Screen Message when no leaves booked:',
             text
         );
 
