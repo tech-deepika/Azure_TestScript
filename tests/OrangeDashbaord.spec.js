@@ -22,7 +22,7 @@ test.describe('Orange HRM Dashboard Tests', () => {
     });
 
 test.afterAll(async () => {
-     console.log("A B C 123");
+     console.log("Aman Shuklaa");
 });
 
     test('Orange HRM Apply Leave Message', async () => {
