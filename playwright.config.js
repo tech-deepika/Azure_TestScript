@@ -30,21 +30,10 @@ export default defineConfig({
 
   // Common settings for all browsers
   use: {
-
-    // Run browser in headless mode
-    headless: false,
-
-    // Take screenshot only if test fails
-    screenshot: 'on',
-
-    // Record video only for failed tests
-    video: 'on',
-
-    // Save trace for failed tests
-    trace: 'on',
-
-   // Ignore SSL certificate errors
-    ignoreHTTPSErrors: true,
+    headless: true,
+    trace: 'on-first-retry',
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure'
   },
 
   // Browser Configuration
